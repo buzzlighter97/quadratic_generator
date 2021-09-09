@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Teacher's joy</title>    
+        <title>Quadgen v.1.1.</title>    
         <meta charset='utf-8'>
         <link rel='stylesheet' type='text/css' href='/css/index.css'>
     </head>
     <body>
-        <div id='header'>Teacher's Joy</div>
-        <div id='sub-header'>Quadratic equations generator</div>
-        <div id='description'>This website generates quadratic equations with rational roots!</div>
+        <div id='header'>Quadgen v.1.1.</div>
+        <div id='sub-header'>Quadratic equations generator.</div>
+        <div id='description'>This website generates quadratic equations with rational roots.</div>
         <div id='edges-form'>
             <form name='edges'>
                 <label for='left-edge'>Left Edge</label>
-                <input type="number" name="left-edge" max='-10'>
+                <input type="number" name="left-edge" max='-2' required>
                 <label for='right-edge'>Right Edge</label>
-                <input type="number" name="right-edge" min='10'>
+                <input type="number" name="right-edge" min='2' required>
             </form>
             <input id='generate-button' style='margin: 10px;' type='button' value='Generate!' onclick="generateEquation()">   
         </div>
