@@ -48,6 +48,13 @@ body {
     color:rgb(187, 187, 187);
 }
 
+input {
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
 input:invalid {
     border-color: red;
+    background-color: lightcoral;
 }
